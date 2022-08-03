@@ -45,7 +45,7 @@ public class UserService {
 		}
 	}
 	
-	@SuppressWarnings("deprecation")
+	
 	public User update(Long id, User obj) {
 		try {
 			User entity = repository.getOne(id);
